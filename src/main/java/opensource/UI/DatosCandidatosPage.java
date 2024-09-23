@@ -32,8 +32,8 @@ public class DatosCandidatosPage {
     public static final Target BTN_LISTA = Target.the("boton de dropdown")
             .locatedBy("//div[@class='oxd-select-text-input']");
 
-    public static final Target SLT_JUNIOR = Target.the("opcion Junior Account Assistant del dropdown")
-            .locatedBy("//span[contains(text(),'Junior Account Assistant')]");
+    public static final Target SLT_PRIMERAOPC = Target.the("opcion primera del dropdown")
+            .locatedBy("(//div[@role='option'])[2]");
 
     public static final Target BTN_GUARDAR = Target.the("Btn Guardar")
             .located(By.xpath("//button[@type='submit']"));

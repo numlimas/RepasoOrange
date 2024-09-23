@@ -46,7 +46,7 @@ public class IngresarCandidato implements Task {
                 Enter.theValue(fechaSolicitud).into(DatosCandidatosPage.INP_FECHA),
                 Enter.theValue(observaciones).into(DatosCandidatosPage.INP_OBSERVACIONES),
                 Click.on(DatosCandidatosPage.BTN_LISTA),
-                Click.on(DatosCandidatosPage.SLT_JUNIOR),
+                Click.on(DatosCandidatosPage.SLT_PRIMERAOPC),
                 SubirArchivo.conRuta("C:\\Users\\NumaelLimasRodríguez\\OneDrive - SQA\\Documentos\\Repaso\\Ejercicio\\src\\main\\java\\opensource\\utils\\prueba.txt"),
                 Click.on(DatosCandidatosPage.BTN_GUARDAR)
         );

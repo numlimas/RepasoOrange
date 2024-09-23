@@ -46,7 +46,12 @@ public class loginStepDefinitions {
     public void seIngresanCredenciales() throws InterruptedException {
         usuario.attemptsTo(
                 Loguearse.conCredenciales("Admin","admin123"),
-                RecordarPagActual.url(),
+                RecordarPagActual.url()
+        );
+    }
+    @When("^Se ingresa el candidato$")
+    public void seIngresaElCandidato() {
+        usuario.attemptsTo(
                 AgregarCandidato.conDatos("David","Eduardo","Becks","n@m.co","3111111111","Futbolista,Empresario","2024-19-09","A la expectativa")
         );
     }

@@ -45,8 +45,7 @@ public class loginStepDefinitions {
     @When("^Se ingresan credenciales$")
     public void seIngresanCredenciales() throws InterruptedException {
         usuario.attemptsTo(
-                Loguearse.conCredenciales("Admin","admin123"),
-                RecordarPagActual.url()
+                Loguearse.conCredenciales("Admin","admin123")
         );
     }
     @When("^Se ingresa el candidato$")

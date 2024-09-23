@@ -35,6 +35,9 @@ public class DatosCandidatosPage {
     public static final Target SLT_PRIMERAOPC = Target.the("opcion primera del dropdown")
             .locatedBy("(//div[@role='option'])[2]");
 
+    public static final Target INP_ARCHIVO = Target.the("Adjuntar archivo")
+            .locatedBy("//input[@class='oxd-file-input']");
+
     public static final Target BTN_GUARDAR = Target.the("Btn Guardar")
             .located(By.xpath("//button[@type='submit']"));
 

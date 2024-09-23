@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Pruebas de Login en Opensource" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-23T01:14:45" hostname="SQABOG-SQA-5192" time="35.857">
+<testsuite name="Pruebas de Login en Opensource" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-23T03:20:13" hostname="SQABOG-SQA-5192" time="39.494">
   <properties/>
-  <testcase name="Validar Login exitoso" classname="Pruebas de Login en Opensource" time="35.857"/>
+  <testcase name="Validar Login exitoso" classname="Pruebas de Login en Opensource" time="39.494"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 129.0.6668.58 (81a06fb873a9b386848719cf9f93e59579fb5d4b-refs/branch-heads/6668@{#1318}) on port 33561
+  <system-err><![CDATA[Starting ChromeDriver 129.0.6668.58 (81a06fb873a9b386848719cf9f93e59579fb5d4b-refs/branch-heads/6668@{#1318}) on port 10689
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 33561.
-sep 22, 2024 8:14:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 10689.
+sep 22, 2024 10:20:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

@@ -32,11 +32,11 @@ public class DatosCandidatosPage {
     public static final Target BTN_LISTA = Target.the("boton de dropdown")
             .locatedBy("//div[@class='oxd-select-text-input']");
 
-    public static final Target LISTA_OPTIONES = Target.the("opciones del dropdown")
-            .locatedBy("//div[contains(@class,'oxd-select-option')]");
-    
-    public static final Target BTN_RECRUITMENT = Target.the("Btn Recruitment")
-            .located(By.xpath("//a[@href='/web/index.php/recruitment/viewRecruitmentModule']"));
+    public static final Target SLT_JUNIOR = Target.the("opcion Junior Account Assistant del dropdown")
+            .locatedBy("//span[contains(text(),'Junior Account Assistant')]");
+
+    public static final Target BTN_GUARDAR = Target.the("Btn Guardar")
+            .located(By.xpath("//button[@type='submit']"));
 
 
 

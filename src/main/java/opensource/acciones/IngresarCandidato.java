@@ -7,6 +7,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import opensource.UI.DatosCandidatosPage;
 import opensource.UI.HomePage;
 import opensource.UI.RecruitmentPage;
+import opensource.tareas.SubirArchivo;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
@@ -43,8 +44,11 @@ public class IngresarCandidato implements Task {
                 Enter.theValue(numero).into(DatosCandidatosPage.INP_NUMERO),
                 Enter.theValue(palabrasClave).into(DatosCandidatosPage.INP_PALABRAS_CLAVE),
                 Enter.theValue(fechaSolicitud).into(DatosCandidatosPage.INP_FECHA),
-                Enter.theValue(observaciones).into(DatosCandidatosPage.INP_OBSERVACIONES)//,
-                //Click.on(LoginPage.BTN_ENTRAR)
+                Enter.theValue(observaciones).into(DatosCandidatosPage.INP_OBSERVACIONES),
+                Click.on(DatosCandidatosPage.BTN_LISTA),
+                Click.on(DatosCandidatosPage.SLT_JUNIOR),
+                SubirArchivo.conRuta("C:\\Users\\NumaelLimasRodríguez\\OneDrive - SQA\\Documentos\\Repaso\\Ejercicio\\src\\main\\java\\opensource\\utils\\prueba.txt"),
+                Click.on(DatosCandidatosPage.BTN_GUARDAR)
         );
     }
 

@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="77ebc62101fe23b5d0519fd3632eb22d920b1cfc2f25a566b7b0073597133a0c.html">Pruebas De Login En Opensource</a></span>
+                > <span class="truncate-60"><a
+                    href="514bbd50eb839b5add65fca855a734593c099674664b4cceccb06bd1bbb9c015.html">Validar Login exitoso </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-09-2024 20:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Pruebas De Login En Opensource</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="66c28bfe55cef45d374e1d1aefdb59ba76428bdd9fe61a0b314cac5bf74ddb0d.html">Funcional
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validar Login exitoso
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="51dd71f296d5026f166fb0e88de447e90d732c7626cd57419c89531ab446a362.png" title=" Given Se accede a la pagina de Opensource" width="1920"/>
+                <img src="51dd71f296d5026f166fb0e88de447e90d732c7626cd57419c89531ab446a362.png" title=" Usuario opens the https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" width="1920"/>
+                <img src="64d4a643b7716d07b57818615d9dde912683c2501b714e6c34631d1a528f02f0.png" title=" Usuario opens the https://opensource-demo.orangehrmlive.com/web/index.php/auth/login (completed)" width="1920"/>
+                <img src="64d4a643b7716d07b57818615d9dde912683c2501b714e6c34631d1a528f02f0.png" title=" Given Se accede a la pagina de Opensource (completed)" width="1920"/>
+                <img src="9bd5e1627767bdfc12eb365e4cf0887322764407c5b993b81ac75e745afab667.png" title=" When Se ingresan credenciales" width="1920"/>
+                <img src="9bd5e1627767bdfc12eb365e4cf0887322764407c5b993b81ac75e745afab667.png" title=" Usuario ingresar credenciales" width="1920"/>
+                <img src="9bd5e1627767bdfc12eb365e4cf0887322764407c5b993b81ac75e745afab667.png" title=" Usuario enters 'Admin' into Campo de texto para usuario" width="1920"/>
+                <img src="7ee7a9026dd41818064f8e77db06c64abb33fcf338c4113dc64c403691172a8d.png" title=" Usuario enters 'Admin' into Campo de texto para usuario (completed)" width="1920"/>
+                <img src="7ee7a9026dd41818064f8e77db06c64abb33fcf338c4113dc64c403691172a8d.png" title=" Usuario enters 'admin123' into Campo de texto para contrasena" width="1920"/>
+                <img src="1c9b96c92de23cd9ee4ab7bb2d946ed366edb60270a7552f30d755cff7cb9b1d.png" title=" Usuario enters 'admin123' into Campo de texto para contrasena (completed)" width="1920"/>
+                <img src="1c9b96c92de23cd9ee4ab7bb2d946ed366edb60270a7552f30d755cff7cb9b1d.png" title=" Usuario clicks on Boton entrar" width="1920"/>
+                <img src="64d4a643b7716d07b57818615d9dde912683c2501b714e6c34631d1a528f02f0.png" title=" Usuario clicks on Boton entrar (completed)" width="1920"/>
+                <img src="64d4a643b7716d07b57818615d9dde912683c2501b714e6c34631d1a528f02f0.png" title=" Usuario ingresar credenciales (completed)" width="1920"/>
+                <img src="64d4a643b7716d07b57818615d9dde912683c2501b714e6c34631d1a528f02f0.png" title=" Usuario recordar pag actual" width="1920"/>
+                <img src="2cdfe633c742421553b18fb5feeac8195670244e9da2564f8fc3f1557c17e366.png" title=" Usuario ingresar candidato" width="1920"/>
+                <img src="e86597fdcd856419c149430a5553653a8efdcb3ba47435a902144c085fd95d0f.png" title=" Usuario clicks on Btn Recruitment" width="1920"/>
+                <img src="64d4a643b7716d07b57818615d9dde912683c2501b714e6c34631d1a528f02f0.png" title=" Usuario clicks on Btn Recruitment (completed)" width="1920"/>
+                <img src="64d4a643b7716d07b57818615d9dde912683c2501b714e6c34631d1a528f02f0.png" title=" Usuario clicks on Btn Add+" width="1920"/>
+                <img src="c4447c0c2e769654c6f4e3314b9efe3b3c64ae6c6dcea95f0f2cd0fada1001c5.png" title=" Usuario enters 'David' into Caja de texto para primer nombre" width="1920"/>
+                <img src="c4447c0c2e769654c6f4e3314b9efe3b3c64ae6c6dcea95f0f2cd0fada1001c5.png" title=" Usuario enters 'Eduardo' into Caja de texto para segundo nombre" width="1920"/>
+                <img src="43ed7cf1850f76462959eedd1ff64ecbeb3818908434f1a738537e59ab9e43d6.png" title=" Usuario enters 'Eduardo' into Caja de texto para segundo nombre (completed)" width="1920"/>
+                <img src="43ed7cf1850f76462959eedd1ff64ecbeb3818908434f1a738537e59ab9e43d6.png" title=" Usuario enters 'Becks' into Caja de texto para apellido" width="1920"/>
+                <img src="c85ae526a585b22bea28453af7087cb7eb4be6321366c395ff686e24e7fdde80.png" title=" Usuario enters 'Becks' into Caja de texto para apellido (completed)" width="1920"/>
+                <img src="c85ae526a585b22bea28453af7087cb7eb4be6321366c395ff686e24e7fdde80.png" title=" Usuario enters 'n@m.co' into Caja de texto para correo" width="1920"/>
+                <img src="ef2a6d73113be79c81f02bac80a298dae5eb717d760583c258f739694114afab.png" title=" Usuario enters 'n@m.co' into Caja de texto para correo (completed)" width="1920"/>
+                <img src="ef2a6d73113be79c81f02bac80a298dae5eb717d760583c258f739694114afab.png" title=" Usuario enters '3111111111' into Caja de texto para numero" width="1920"/>
+                <img src="8467ef8210df05894ef6ba0192aa585e6a6c6d34767f44405ad44d8f5055bfa2.png" title=" Usuario enters '3111111111' into Caja de texto para numero (completed)" width="1920"/>
+                <img src="8467ef8210df05894ef6ba0192aa585e6a6c6d34767f44405ad44d8f5055bfa2.png" title=" Usuario enters 'Futbolista,Empresario' into Caja de texto para palabras clave" width="1920"/>
+                <img src="0ef0734dc1567ae11f29e1c996022a3377f1e07e994bf79d20a1b2834afca5f1.png" title=" Usuario enters 'Futbolista,Empresario' into Caja de texto para palabras clave (completed)" width="1920"/>
+                <img src="0ef0734dc1567ae11f29e1c996022a3377f1e07e994bf79d20a1b2834afca5f1.png" title=" Usuario enters '2024-19-09' into Caja de texto para fecha" width="1920"/>
+                <img src="6ae8866ccb03074afb70e02bfd2cbc51e11f8767e30640cb030d6e3ec8be9247.png" title=" Usuario enters '2024-19-09' into Caja de texto para fecha (completed)" width="1920"/>
+                <img src="6ae8866ccb03074afb70e02bfd2cbc51e11f8767e30640cb030d6e3ec8be9247.png" title=" Usuario enters 'A la expectativa' into Caja de texto para observaciones" width="1920"/>
+                <img src="3f4a2acbf24bcc51a451c8a1aa0cd3cfd4ba6b78affa3554f9a0b7c7a7f759e5.png" title=" Usuario enters 'A la expectativa' into Caja de texto para observaciones (completed)" width="1920"/>
+                <img src="3f4a2acbf24bcc51a451c8a1aa0cd3cfd4ba6b78affa3554f9a0b7c7a7f759e5.png" title=" Usuario ingresar candidato (completed)" width="1920"/>
+                <img src="3f4a2acbf24bcc51a451c8a1aa0cd3cfd4ba6b78affa3554f9a0b7c7a7f759e5.png" title=" When Se ingresan credenciales (completed)" width="1920"/>
+                <img src="220f367a00c1bce2deba1e69f677e08bfee4097b80b7db630e62bb5cece8de86.png" title=" Then Se valida estar en el home logueado" width="1920"/>
+                <img src="220f367a00c1bce2deba1e69f677e08bfee4097b80b7db630e62bb5cece8de86.png" title=" Then inicio" width="1920"/>
+                <img src="220f367a00c1bce2deba1e69f677e08bfee4097b80b7db630e62bb5cece8de86.png" title=" Then inicio (completed)" width="1920"/>
+                <img src="220f367a00c1bce2deba1e69f677e08bfee4097b80b7db630e62bb5cece8de86.png" title=" Then Se valida estar en el home logueado (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
